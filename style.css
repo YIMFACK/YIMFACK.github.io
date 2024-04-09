@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: century;
+    box-sizing: border-box;
+}
+ li{
+    list-style: none;
+}
+
+.img {
+   position: absolute;
+   left: 50%;
+}
+
+.titre{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+ a{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    
+}
+
+a:hover{
+    background: blueviolet
+}
+
+ul{
+    position: absolute;
+    top: 80%;
+    left: 30%;
+}
+
+li table{
+    position: absolute;
+    top: 55%;
+    left: 5%;
+}
+li p{
+    position: absolute;
+    top: 65%;
+    left: 20%;
+}
+.envoyer a{
+    color: blue;
+    padding: 0px 20px;
+    border: 1px solid blue;
+ position: absolute;
+ top: 230%;
+ text-transform: uppercase;
+ text-decoration: none;
+ font-weight: 900;
+}
+table{
+    border-collapse: collapse;
+}
+th,td{
+    border: 2px solid black;
+}
+label{
+    display: block;
+    width: 150px;
+    float: left;
+}
